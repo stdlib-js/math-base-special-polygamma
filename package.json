@@ -69,7 +69,7 @@
     "debug": "^2.6.9"
   },
   "devDependencies": {
-    "@stdlib/array-incrspace": "^0.0.x",
+    "@stdlib/array-base-incrspace": "^0.0.x",
     "@stdlib/assert-is-nan": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/fs-write-file": "^0.0.x",
