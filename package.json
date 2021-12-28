@@ -38,6 +38,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-zeros": "^0.0.x",
     "@stdlib/constants-float64-eps": "^0.0.x",
     "@stdlib/constants-float64-ln-pi": "^0.0.x",
     "@stdlib/constants-float64-ln-two": "^0.0.x",
