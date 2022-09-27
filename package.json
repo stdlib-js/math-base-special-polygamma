@@ -77,6 +77,7 @@
     "@stdlib/math-base-special-round": "^0.0.x",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/time-current-year": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-spec": "5.x.x"
