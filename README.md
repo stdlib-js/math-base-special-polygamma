@@ -30,30 +30,14 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-polygamma
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var polygamma = require( '@stdlib/math-base-special-polygamma' );
+import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@deno/mod.js';
 ```
 
 #### polygamma( n, x )
@@ -125,9 +109,9 @@ v = polygamma( NaN, NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
-var polygamma = require( '@stdlib/math-base-special-polygamma' );
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
+import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@deno/mod.js';
 
 var n;
 var x;
@@ -171,7 +155,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -226,15 +210,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [polygamma-function]: https://en.wikipedia.org/wiki/Polygamma_function
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/deno
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma
+[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma/tree/deno
 
-[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma
+[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma/tree/deno
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/deno
 
 <!-- </related-links> -->
 
