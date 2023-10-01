@@ -66,7 +66,8 @@
     "@stdlib/math-base-special-trigamma": "^0.1.0",
     "@stdlib/math-base-special-trunc": "^0.1.0",
     "@stdlib/math-base-tools-evalpoly": "^0.1.0",
-    "debug": "^2.6.9"
+    "debug": "^2.6.9",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.1.0",
