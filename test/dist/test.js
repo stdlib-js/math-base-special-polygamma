@@ -34,12 +34,12 @@ var polygamma = require( './../../dist' );
 
 // FIXTURES //
 
-var largePositive = require( './../..xtures/cpp/large_positive.json' );
-var largeNegative = require( './../..xtures/cpp/large_negative.json' );
-var smallPositive = require( './../..xtures/cpp/small_positive.json' );
-var hugePositive = require( './../..xtures/cpp/huge_positive.json' );
-var positive = require( './../..xtures/cpp/positive.json' );
-var negative = require( './../..xtures/cpp/negative.json' );
+var largePositive = require( './../fixtures/cpp/large_positive.json' );
+var largeNegative = require( './../fixtures/cpp/large_negative.json' );
+var smallPositive = require( './../fixtures/cpp/small_positive.json' );
+var hugePositive = require( './../fixtures/cpp/huge_positive.json' );
+var positive = require( './../fixtures/cpp/positive.json' );
+var negative = require( './../fixtures/cpp/negative.json' );
 
 
 // TESTS //
