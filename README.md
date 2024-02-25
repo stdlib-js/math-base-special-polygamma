@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@deno/mod.js';
+import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@v0.2.1-deno/mod.js';
 ```
 
 #### polygamma( n, x )
@@ -122,7 +122,7 @@ v = polygamma( NaN, NaN );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@deno/mod.js';
+import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@v0.2.1-deno/mod.js';
 
 var n;
 var x;
