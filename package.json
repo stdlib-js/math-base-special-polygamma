@@ -50,7 +50,7 @@
     "@stdlib/math-base-assert-is-nonnegative-integer": "^0.2.1",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-bernoulli": "^0.3.0",
-    "@stdlib/math-base-special-cospi": "^0.3.1",
+    "@stdlib/math-base-special-cospi": "^0.4.0",
     "@stdlib/math-base-special-digamma": "^0.3.0",
     "@stdlib/math-base-special-exp": "^0.2.4",
     "@stdlib/math-base-special-factorial": "^0.3.0",
