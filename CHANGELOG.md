@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-05-18)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`544385d`](https://github.com/stdlib-js/stdlib/commit/544385dd540a06830b51111ac9e61b0aaa81e048) - **docs:** replace manual `for` loop in examples [(#6490)](https://github.com/stdlib-js/stdlib/pull/6490) _(by Harsh)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Harsh
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-29)

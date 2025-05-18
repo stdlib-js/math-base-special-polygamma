@@ -71,10 +71,13 @@
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.2.2",
     "@stdlib/assert-is-nan": "^0.2.2",
+    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
     "@stdlib/fs-write-file": "^0.2.2",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.3.0",
+    "@stdlib/random-array-discrete-uniform": "^0.2.1",
+    "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/time-current-year": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
