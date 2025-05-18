@@ -41,14 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-polygamma
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@deno/mod.js';
+var polygamma = require( '@stdlib/math-base-special-polygamma' );
 ```
 
 #### polygamma( n, x )
@@ -89,7 +107,7 @@ v = polygamma( 2, -1.0 );
 If `x` on the other hand is a negative even `integer`, the function returns `NaN`.
 
 ```javascript
-v = polygamma( 2, -4.0 );
+var v = polygamma( 2, -4.0 );
 // returns NaN
 
 v = polygamma( 2, -2.0 );
@@ -120,21 +138,18 @@ v = polygamma( NaN, NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@deno/mod.js';
+var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var polygamma = require( '@stdlib/math-base-special-polygamma' );
 
-var n;
-var x;
-var v;
-var i;
+var opts = {
+    'dtype': 'float64'
+};
+var x = uniform( 100, -50.0, 50.0, opts );
+var n = discreteUniform( 100, 0, 50, opts );
 
-for ( i = 0; i < 100; i++ ) {
-    x = (randu()*100.0) - 50.0;
-    n = round( randu()*50.0 );
-    v = polygamma( x, n );
-    console.log( 'x: %d, ψ^(%d)(x): %d', x, n, v );
-}
+logEachMap( 'x: %0.4f, ψ^(%d)(x): %0.4f', x, n, polygamma );
 ```
 
 </section>
@@ -166,7 +181,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -224,15 +239,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [polygamma-function]: https://en.wikipedia.org/wiki/Polygamma_function
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/deno
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma/tree/deno
+[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma
 
-[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma/tree/deno
+[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/deno
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
 <!-- </related-links> -->
 
