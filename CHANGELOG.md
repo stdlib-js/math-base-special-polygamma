@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-04)
+## Unreleased (2025-08-22)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`44010b3`](https://github.com/stdlib-js/stdlib/commit/44010b3e8509ab22c32750fa125a1155f5fd8995) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`a84070b`](https://github.com/stdlib-js/stdlib/commit/a84070b1742699f8ef3ed810671826c309bd0283) - **chore:** update notes and ensure n is first argument in examples _(by Philipp Burckhardt)_
 -   [`544385d`](https://github.com/stdlib-js/stdlib/commit/544385dd540a06830b51111ac9e61b0aaa81e048) - **docs:** replace manual `for` loop in examples [(#6490)](https://github.com/stdlib-js/stdlib/pull/6490) _(by Harsh)_
 
