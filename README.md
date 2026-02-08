@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@deno/mod.js';
+import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@v0.2.3-deno/mod.js';
 ```
 
 #### polygamma( n, x )
@@ -123,7 +123,7 @@ v = polygamma( NaN, NaN );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@deno/mod.js';
+import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@v0.2.3-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
