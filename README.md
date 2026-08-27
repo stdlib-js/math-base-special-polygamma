@@ -37,6 +37,16 @@ limitations under the License.
 
 <section class="intro">
 
+The [polygamma][polygamma-function] function of order `n` is the `(n+1)`th derivative of the natural logarithm of the [gamma function][gamma-function]
+
+<!-- <equation class="equation" label="eq:polygamma_function" align="center" raw="\psi^{(n)}(x) = \frac{d^{n+1}}{dx^{n+1}} \ln{\Gamma(x)}" alt="Polygamma function"> -->
+
+```math
+\psi^{(n)}(x) = \frac{d^{n+1}}{dx^{n+1}} \ln{\Gamma(x)}
+```
+
+<!-- </equation> -->
+
 </section>
 
 <!-- /.intro -->
@@ -236,6 +246,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/math-base-special-polygamma/tree/esm
 [esm-readme]: https://github.com/stdlib-js/math-base-special-polygamma/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-polygamma/blob/main/branches.md
+
+[gamma-function]: https://en.wikipedia.org/wiki/Gamma_function
 
 [polygamma-function]: https://en.wikipedia.org/wiki/Polygamma_function
 
