@@ -45,20 +45,43 @@ The [polygamma][polygamma-function] function of order `n` is the `(n+1)`th deriv
 \psi^{(n)}(x) = \frac{d^{n+1}}{dx^{n+1}} \ln{\Gamma(x)}
 ```
 
+<!-- <div class="equation" align="center" data-raw-text="\psi^{(n)}(x) = \frac{d^{n+1}}{dx^{n+1}} \ln{\Gamma(x)}" data-equation="eq:polygamma_function">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e35241e609f4ea7a5a1e367022755bde30d3119f/lib/node_modules/@stdlib/math/base/special/polygamma/docs/img/equation_polygamma_function.svg" alt="Polygamma function">
+    <br>
+</div> -->
+
 <!-- </equation> -->
 
 </section>
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-polygamma
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@esm/index.mjs';
+var polygamma = require( '@stdlib/math-base-special-polygamma' );
 ```
 
 #### polygamma( n, x )
@@ -129,16 +152,11 @@ v = polygamma( NaN, NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
-import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import polygamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-polygamma@esm/index.mjs';
+```javascript
+var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var polygamma = require( '@stdlib/math-base-special-polygamma' );
 
 var opts = {
     'dtype': 'float64'
@@ -147,10 +165,6 @@ var x = uniform( 100, -50.0, 50.0, opts );
 var n = discreteUniform( 100, 0, 50, opts );
 
 logEachMap( 'ψ^(%d)(x = %0.4f): %0.4f', n, x, polygamma );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -182,7 +196,7 @@ logEachMap( 'ψ^(%d)(x = %0.4f): %0.4f', n, x, polygamma );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -242,15 +256,15 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [polygamma-function]: https://en.wikipedia.org/wiki/Polygamma_function
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/esm
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma/tree/esm
+[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma
 
-[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma/tree/esm
+[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/esm
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
 <!-- </related-links> -->
 
