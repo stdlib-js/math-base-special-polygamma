@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-27)
+## Unreleased (2026-08-28)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`e67a5aa`](https://github.com/stdlib-js/stdlib/commit/e67a5aad659d8f6623e4ab8ac94687a8586ea83a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`85f4853`](https://github.com/stdlib-js/stdlib/commit/85f48534ef6908bbcd982d48f1c5fbea3fb7aafd) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`795a5dc`](https://github.com/stdlib-js/stdlib/commit/795a5dc8faad670819a5151bcf249176dbdac6b4) - **docs:** add equations [(#14690)](https://github.com/stdlib-js/stdlib/pull/14690) _(by Karan Anand)_
 -   [`3a3c94b`](https://github.com/stdlib-js/stdlib/commit/3a3c94b63c464e128407df64381b7a9fa6c418db) - **test:** migrate `math/base/special/polygamma` to ULP-based assertions [(#14055)](https://github.com/stdlib-js/stdlib/pull/14055) _(by Athan Reines)_
 -   [`5c56631`](https://github.com/stdlib-js/stdlib/commit/5c56631cd8e1d0ab496c17d05ccd6ae351c7f0ec) - **test:** fix mismatched test filenames [(#12991)](https://github.com/stdlib-js/stdlib/pull/12991) _(by Philipp Burckhardt)_
